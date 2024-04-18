@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Simulator  - Car Price Prediction</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/static/assets/img/tire.png" rel="icon">
+  <link href="/static/assets/img/tire.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/static/assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Techie - v4.9.1
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">Simulator</a></h1>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#simul">Simulator</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="http://karannegi.me">Portfolio</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Bettter Experience With Simulator</h1>
+          <h2>Predict the price of your car and chose wisely best to get.</h2>
+          <div><a href="#simul" class="btn-get-started scrollto">Get Started</a></div>
+        </div>
+        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+          <img src="/static/assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+            <!-- ======= Simulator Section ======= -->
+            <section id="simul" class="simul">
+              <div class="container">
+        
+                <div class="row">
+                  <div class="sim" data-aos="zoom-in" data-aos-delay="150">
+                    <h2>Simulate</h2>
+                    <div class="simulate"> 
+                      <!-- <form autocomplete="off" action="/predict" method="POST">
+
+                          <div class="a" ><b>Brand</b>
+                            <select name="Brand" class="a rt">
+                              <option value="none" selected disabled hidden>Select an Option</option>
+                              <option value="0">Ambassador</option>
+                              <option value="1">Audi</option>
+                              <option value="2">BMW</option>
+                              <option value="3">Chevrolet</option>
+                              <option value="4">Daewoo</option>
+                              <option value="5">Datsun</option>
+                              <option value="6">Fiat</option>
+                              <option value="7">Force</option>
+                              <option value="8">Ford</option>
+                              <option value="9">Honda</option>
+                              <option value="10">Hyundai</option>
+                              <option value="11">Isuzu</option>
+                              <option value="12">Jaguar</option>
+                              <option value="13">Jeep</option>
+                              <option value="14">Kia</option>
+                              <option value="15">Land</option>
+                              <option value="16">MG</option>
+                              <option value="17">Mahindra</option>
+                              <option value="18">Maruti</option>
+                              <option value="19">Mercedes-Benz</option>
+                              <option value="20">Mitsubishi</option>
+                              <option value="21">Nissan</option>
+                              <option value="22">OpelCorsa</option>
+                              <option value="23">Renault</option>
+                              <option value="24">Skoda</option>
+                              <option value="25">Tata</option>
+                              <option value="26">Toyota</option>
+                              <option value="27">Volkswagen</option>
+                              <option value="28">Volvo</option>
+                            </select>
+                          </div>
+  
+                          <div class="b autocomplete"><b>Model</b>
+                              <input id="myInput" class="b rt" type="text" name ="Model" required="required" placeholder="Model">
+                          </div>
+
+                              <div class="c"><b>Year</b>
+                                <input class="c rt" type="Number" name ="Year" required="required" min="1992" max="2022" placeholder="XXXX">
+                              </div>
+
+                          <div class="d"><b>Kilometers Driven</b>
+                            <input type="Number" name="KM_Driven" required="required" class="d rt" min="0" max="999999" placeholder="000000">
+                          </div>
+                
+                          <div class="e"><b>Number of previous Owners</b>
+                              <select name="Owner" class="e rt">
+                                <option value="none" selected disabled hidden>Select an Option</option>
+                                <option value="0">First Owner</option>
+                                <option value="2">Second Owner</option>
+                                <option value="4">Third Owner</option>
+                                <option value="1">Forth or Above Owner</option>
+                                <option value="3">Test Drive Car</option>
+                              </select>
+                            </div>
+                  
+                          <div class="f"><b>Fuel Type</b>
+                              <select name="Fuel" class="f rt">
+                                <option value="none" selected disabled hidden>Select an Option</option>
+                                <option value="0">CNG</option>
+                                <option value="1">Diesel</option>
+                                <option value="2">Electric</option>
+                                <option value="3">LPG</option>
+                                <option value="4">Petrol</option>
+                              </select>
+                            </div>
+                  
+                            <div class="g"><b>Seller Type</b>
+                              <select name="Seller_Type" class="g rt">
+                                <option value="none" selected disabled hidden>Select an Option</option>
+                                <option value="0">Dealer</option>
+                                <option value="1">Individual</option>
+                                <option value="2">trustmark Dealer</option>
+                              </select></div>
+                  
+                          <div class="h"><b>Transmission Type</b>
+                            <option value="none" selected disabled hidden>Select an Option</option>
+                              <select name="Transmission" class="h rt">
+                                <option value="0">Automatic</option>
+                              <option value="1">Manual</option>
+                          </select></div>
+                  
+                          <div class="i" align="center">
+                            <button type="submit" class="i" onclick="send_data()">Calculate</button>
+                          </div>
+                    </form> -->
+
+
+                    <!-- another form start -->
+                    <form method="post" accept-charset="utf-8" name="Modelform">
+                      <div class="col-md-10 form-group" style="text-align: center">
+                          <label><b>Select the company:</b> </label><br>
+                          <select class="selectpicker form-control" id="company" name="company" required="1"
+                                  onchange="load_car_models(this.id,'car_models')">
+                              {% for company in companies %}
+                              <option value="{{ company }}">{{ company }}</option>
+                              {% endfor %}
+                          </select>
+                      </div>
+                      <div class="col-md-10 form-group" style="text-align: center">
+                          <label><b>Select the model:</b> </label><br>
+                          <select class="selectpicker form-control" id="car_models" name="car_models" required="1">
+                          </select>
+                      </div>
+                      <div class="col-md-10 form-group" style="text-align: center">
+                          <label><b>Select Year of Purchase:</b> </label><br>
+                          <select class="selectpicker form-control" id="year" name="year" required="1">
+                              {% for year in years %}
+                              <option value="{{ year }}">{{ year }}</option>
+                              {% endfor %}
+                          </select>
+                      </div>
+                      <div class="col-md-10 form-group" style="text-align: center">
+                          <label><b>Select the Fuel Type:</b> </label><br>
+                          <select class="selectpicker form-control" id="fuel_type" name="fuel_type" required="1">
+                              {% for fuel in fuel_types %}
+                              <option value="{{ fuel }}">{{ fuel }}</option>
+                              {% endfor %}
+                          </select>
+                      </div>
+                      <div class="col-md-10 form-group" style="text-align: center">
+                          <label><b>Enter the Number of Kilometres that the car has travelled:</b> </label><br>
+                          <input type="text" class="form-control" id="kilo_driven" name="kilo_driven"
+                                 placeholder="Enter the kilometres driven ">
+                      </div>
+                      <div class="col-md-10 form-group" style="text-align: center">
+                          <button  class="btn btn-primary form-control" onclick="send_data()">Predict Price</button>
+                      </div>
+                  </form>
+                  <br>
+                  <div class="row">
+                      <div class="col-12" style="text-align: center">
+                          <h4><span id="prediction"></span></h4>
+                      </div>
+                  </div>
+
+<!-- another form end -->
+
+                    <div class="j" align=""center>
+                      <p align="center" class="heading" id="prediction"></p>
+                    </div>
+
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+            </section><!-- End Simulator Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Get the accurate data about your car.</h3>
+            <p class="fst-italic">
+              Now the car won't be that far... Simulate the data, get the Predicted Price & buy it today.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Secure.</li>
+              <li><i class="bi bi-check-circle"></i> Accurate.</li>
+              <li><i class="bi bi-check-circle"></i> Simple.</li>
+            </ul>
+            <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact us if you have any query. </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>KIIT College of Engineering, Haryana, India</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>XX-XXXX XXXX XX</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?q=KIIT%20college%20of%20engineering,%20maruti%20kunj&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Simulator</h3>
+            <p>
+              KIIT College of Engineering <br>
+              Haryana<br>
+              India<br><br>
+              <strong>Phone:</strong> XX XXXX XXXXXX<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Simulator</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./portfolio-details.html">Portfolio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Car Dealers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Your are most welcome to Subscribe.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Simulator</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="">Karan</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/static/assets/vendor/aos/aos.js"></script>
+  <script src="/static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/static/assets/js/main.js"></script>
+
+
+  <!-- <script>
+    function autocomplete(inp, arr) {
+      /*the autocomplete function takes two arguments,
+      the text field element and an array of possible autocompleted values:*/
+      var currentFocus;
+      /*execute a function when someone writes in the text field:*/
+      inp.addEventListener("input", function(e) {
+          var a, b, i, val = this.value;
+          /*close any already open lists of autocompleted values*/
+          closeAllLists();
+          if (!val) { return false;}
+          currentFocus = -1;
+          /*create a DIV element that will contain the items (values):*/
+          a = document.createElement("DIV");
+          a.setAttribute("id", this.id + "autocomplete-list");
+          a.setAttribute("class", "autocomplete-items");
+          /*append the DIV element as a child of the autocomplete container:*/
+          this.parentNode.appendChild(a);
+          /*for each item in the array...*/
+          for (i = 0; i < arr.length; i++) {
+            /*check if the item starts with the same letters as the text field value:*/
+            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+              /*create a DIV element for each matching element:*/
+              b = document.createElement("DIV");
+              /*make the matching letters bold:*/
+              b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+              b.innerHTML += arr[i].substr(val.length);
+              /*insert a input field that will hold the current array item's value:*/
+              b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+              /*execute a function when someone clicks on the item value (DIV element):*/
+              b.addEventListener("click", function(e) {
+                  /*insert the value for the autocomplete text field:*/
+                  inp.value = this.getElementsByTagName("input")[0].value;
+                  /*close the list of autocompleted values,
+                  (or any other open lists of autocompleted values:*/
+                  closeAllLists();
+              });
+              a.appendChild(b);
+            }
+          }
+      });
+      /*execute a function presses a key on the keyboard:*/
+      inp.addEventListener("keydown", function(e) {
+          var x = document.getElementById(this.id + "autocomplete-list");
+          if (x) x = x.getElementsByTagName("div");
+          if (e.keyCode == 40) {
+            /*If the arrow DOWN key is pressed,
+            increase the currentFocus variable:*/
+            currentFocus++;
+            /*and and make the current item more visible:*/
+            addActive(x);
+          } else if (e.keyCode == 38) { //up
+            /*If the arrow UP key is pressed,
+            decrease the currentFocus variable:*/
+            currentFocus--;
+            /*and and make the current item more visible:*/
+            addActive(x);
+          } else if (e.keyCode == 13) {
+            /*If the ENTER key is pressed, prevent the form from being submitted,*/
+            e.preventDefault();
+            if (currentFocus > -1) {
+              /*and simulate a click on the "active" item:*/
+              if (x) x[currentFocus].click();
+            }
+          }
+      });
+      function addActive(x) {
+        /*a function to classify an item as "active":*/
+        if (!x) return false;
+        /*start by removing the "active" class on all items:*/
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);
+        /*add class "autocomplete-active":*/
+        x[currentFocus].classList.add("autocomplete-active");
+      }
+      function removeActive(x) {
+        /*a function to remove the "active" class from all autocomplete items:*/
+        for (var i = 0; i < x.length; i++) {
+          x[i].classList.remove("autocomplete-active");
+        }
+      }
+      function closeAllLists(elmnt) {
+        /*close all autocomplete lists in the document,
+        except the one passed as an argument:*/
+        var x = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < x.length; i++) {
+          if (elmnt != x[i] && elmnt != inp) {
+            x[i].parentNode.removeChild(x[i]);
+          }
+        }
+      }
+      /*execute a function when someone clicks in the document:*/
+      document.addEventListener("click", function (e) {
+          closeAllLists(e.target);
+      });
+    }
+    
+    /*An array containing all the country names in the world:*/
+   
+    
+    /*initiate the autocomplete function on the "myInput" element, and pass along the cars array as possible autocomplete values:*/
+    autocomplete(document.getElementById("myInput"), cars);
+
+    function form_handler(){
+      event.preventDefault();
+    }
+
+    function send_data(){
+      document.querySelector('form').addEventListener('submit', form_handler);
+
+      var fd = new FormData(document.querySelector('form'));
+
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', '/predict', true);
+
+      document.getElementById('prediction').innerHTML="Predicting...";
+
+      xhr.onreadystatechange = function(){
+        if(xhr.readyState == XMLHttpRequest.DONE){
+          document.getElementById('prediction').innerHTML=xhr.responseText +"Rupees";
+        }
+      }
+      xhr.onload = function(){};
+      xhr.send(fd);
+
+    }
+
+    </script> -->
+
+
+<script> function load_car_models(company_id,car_model_id)
+  {
+      var company=document.getElementById(company_id);
+      var car_model= document.getElementById(car_model_id);
+      console.log(company.value);
+      car_model.value="";
+      car_model.innerHTML="";
+      {% for company in companies %}
+          if( company.value == "{{ company }}")
+          {
+              {% for model in car_models %}
+                  {% if company in model %}
+
+                      var newOption= document.createElement("option");
+                      newOption.value="{{ model }}";
+                      newOption.innerHTML="{{ model }}";
+                      car_model.options.add(newOption);
+                  {% endif %}
+              {% endfor %}
+          }
+      {% endfor %}
+  }
+
+  function form_handler(event) {
+      event.preventDefault(); // Don't submit the form normally
+  }
+  function send_data()
+  {
+      document.querySelector('form').addEventListener("submit",form_handler);
+
+      var fd=new FormData(document.querySelector('form'));
+
+      var xhr= new XMLHttpRequest({mozSystem: true});
+
+      xhr.open('POST','/predict',true);
+      document.getElementById('prediction').innerHTML="Wait! Predicting Price.....";
+      xhr.onreadystatechange = function(){
+          if(xhr.readyState == XMLHttpRequest.DONE){
+              document.getElementById('prediction').innerHTML="Prediction: ₹"+xhr.responseText;
+
+          }
+      };
+
+      xhr.onload= function(){};
+
+      xhr.send(fd);
+  }</script>
+
+    
+</body>
+
+</html>
