@@ -36,7 +36,7 @@ To run the Car Price Prediction System, you'll need to have Python and the neces
 > Command:
 > - cd car-price-prediction
 
-> -  suppose if i have downloaded this project in desktop
+> suppose if i have downloaded this project in desktop
 > Command will be:
 > - cd C:\Users\os\Desktop\Car_Price_Prediction_System
 
