@@ -5,13 +5,13 @@ Welcome to the Car Price Prediction System repository! This project leverages ad
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- Features
-- Installation
-- Usage
-- Data
-- Model
-- Contributing
-- License
+- [Features](url)
+- [Installation](url)
+- [Usage](url)
+- [Data](url)
+- [Model](url)
+- [Contributing](url)
+- [License](url)
 
 
 # Introduction
