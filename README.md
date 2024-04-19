@@ -3,6 +3,17 @@ Welcome to the Car Price Prediction System repository! This project leverages ad
 
  <!-- Add an image link here if you have one -->
 
+ ## Home Screen | Landing Page
+ ![image](https://github.com/KaranOO/KaranOO/blob/4ddfbc449367030727d4de68ffd1a52df8c6a21a/image/CPP_HOME1.PNG)
+ 
+
+## Input Section
+ ![image](https://github.com/KaranOO/KaranOO/blob/4ddfbc449367030727d4de68ffd1a52df8c6a21a/image/CPP_HOME2.PNG)
+
+## Prediction | Working of Model
+ ![image](https://github.com/KaranOO/KaranOO/blob/4ddfbc449367030727d4de68ffd1a52df8c6a21a/image/CPP_HOME3.PNG)
+
+
 ## 📋Table of Contents
 - [Introduction](#Introduction) 
 - [Features](#Features)
