@@ -46,7 +46,7 @@ To run the Car Price Prediction System, you'll need to have Python and the neces
 2. Run the system using the command:
    
 > bash
-> - python car_price_prediction.py
+> - python application.py
 3. Follow the on-screen instructions to input data and receive predictions.
 
 
