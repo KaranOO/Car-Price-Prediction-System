@@ -4,7 +4,7 @@ Welcome to the Car Price Prediction System repository! This project leverages ad
  <!-- Add an image link here if you have one -->
 
 ## Table of Contents
-- Introduction
+- [Introduction](#Introduction)
 - Features
 - Installation
 - Usage
