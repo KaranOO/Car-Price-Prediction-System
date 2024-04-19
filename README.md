@@ -29,9 +29,10 @@ The Car Price Prediction System uses data from a variety of sources to train a m
 To run the Car Price Prediction System, you'll need to have Python and the necessary libraries installed on your system. Follow these steps:
 
 ## 1. Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/car-price-prediction.git
+
+```bash
+    git clone https://github.com/yourusername/car-price-prediction.git
+    ```
 
 ## 2. Navigate to the project directory:
 bash
