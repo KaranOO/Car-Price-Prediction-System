@@ -26,7 +26,7 @@ Welcome to the Car Price Prediction System repository! This project leverages ad
 
 
 # 🛠️Introduction
-The Car Price Prediction System uses data from a variety of sources to train a machine learning model capable of predicting car prices. By analyzing features such as make, model, year, mileage, and more, this system can provide accurate and insightful predictions.
+The Car Price Prediction System uses data from a variety of sources to train a machine learning model capable of predicting car prices. By analyzing features such as Company, model, year, kms driven, and more, this system can provide pretty accurate and insightful predictions.
 
 # ✨Features
 **Data Preprocessing:** Clean and preprocess raw data to ensure model accuracy.
@@ -59,14 +59,13 @@ To run the Car Price Prediction System, you'll need to have Python and the neces
 # 🚀Usage
 1. Prepare your data in the specified format.
 2. Run the system using the command:
-   
-> bash
+>   bash
 > - python application.py
 3. Follow the on-screen instructions to input data and receive predictions.
 
 
 # 📊Data
-The system uses a dataset containing various car features such as make, model, year, mileage, and more. The data is cleaned and preprocessed before being used for training and testing the model.
+The system uses a dataset containing various car features such as Brand/Company, model, year, kms driven, and fuel type. The data is cleaned and preprocessed before being used for training and testing the model.
 
 # 🤖Model
 The model is trained using a regression algorithm and is fine-tuned for optimal performance. Advanced metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) are used to evaluate the model's accuracy.
